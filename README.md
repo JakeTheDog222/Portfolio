@@ -19,7 +19,7 @@
         </nav>
     </header>
 
-    <!-- Profile Section -->
+    
     <section id="profile" class="section">
         <div class="profile">
             <img src="profile.jpg" alt="Angelo Jay Aleria" class="circle-image">
@@ -68,25 +68,10 @@
         </form>
     </footer>
 
-    <!-- JavaScript for Interactivity -->
-    <script>
-        document.getElementById('contactForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            const email = document.getElementById('email').value;
-            const password = document.getElementById('password').value;
-            const comment = document.getElementById('comment').value;
-
-            if (email && password && comment) {
-                alert(`Thank you for your message, ${email}! I will get back to you soon.`);
-            } else {
-                alert('Please fill out all fields.');
-            }
-        });
-    </script>
 </body>
 </html>
 
-/* General Styles */
+
 body {
     font-family: 'Times New Roman', serif;
     margin: 0;
@@ -128,7 +113,7 @@ nav ul li a:hover {
     color: #ff6347;
 }
 
-/* Sections */
+
 .section {
     padding: 20px;
     margin: 20px;
@@ -139,7 +124,7 @@ nav ul li a:hover {
     max-width: 800px;
 }
 
-/* Profile Section */
+
 .profile {
     display: flex;
     align-items: center;
@@ -165,7 +150,7 @@ nav ul li a:hover {
     color: #666;
 }
 
-/* Hobbies Section */
+
 #hobbies ul {
     list-style: none;
     padding: 0;
@@ -178,8 +163,6 @@ nav ul li a:hover {
     margin: 5px 0;
     border-radius: 5px;
 }
-
-/* Education Section */
 #education ul {
     list-style: none;
     padding: 0;
@@ -193,7 +176,7 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Footer with Contact Form */
+
 footer {
     text-align: center;
     padding: 20px;
@@ -210,3 +193,4 @@ form {
 
 form label {
     margin-bottom:
+    }
